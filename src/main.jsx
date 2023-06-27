@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Main from './Main/Main';
 import Home from './Home/Home/Home';
+import Contact from './Home/Contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -14,8 +15,12 @@ const router = createBrowserRouter([
     element: <Main></Main>,
     children: [
       {
-        path : '/',
-        element : <Home></Home>
+        path: '/',
+        element: <Home></Home>
+      },
+      {
+        path:'/contact',
+        element: <Contact></Contact>
       }
     ]
   },
@@ -23,6 +28,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <div className='max-w-screen-xl mx-auto'>
+      <RouterProvider router={router} />
+    </div>
   </React.StrictMode>,
 )
