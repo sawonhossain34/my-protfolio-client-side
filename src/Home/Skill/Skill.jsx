@@ -6,13 +6,18 @@ import firebase from "../../assets/img/skill/firebase.png"
 import html from "../../assets/img/skill/html.png"
 import react from "../../assets/img/skill/react.png"
 import js from "../../assets/img/skill/js.png"
+import { useEffect } from "react";
+import Aos from "aos";
 const Skill = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, [])
     return (
         <div className="my-10 ">
             <h2 className="text-5xl bg-gray-700 text-amber-600 font-bold text-center py-10">Skill</h2>
-            <div className="hero w-full min-h-screen bg-black">
+            <div className="hero w-full  bg-black">
                 <div className="hero-content  flex-col lg:flex-row">
-                    <img src={skill} className="max-w-sm  rounded-lg shadow-2xl  mr-10 " />
+                    <img data-aos="zoom-in" src={skill} className="max-w-sm  rounded-lg shadow-2xl  mr-10 " />
                     <div className="w-full pl-10 text-amber-600">
                         <div className="grid grid-cols-2 gap-10">
                             <p data-aos="fade-right" className="py-6 flex gap-4 items-center"><img className="w-10 h-10" src={js} alt="" /> Javascript</p>

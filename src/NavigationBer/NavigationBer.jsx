@@ -7,7 +7,7 @@ const NavigationBer = () => {
             <li className="font-bold text-amber-600 text-xl"><Link>Home</Link></li>
             <li className="font-bold text-amber-600 text-xl"><Link>Project</Link></li>
             <li className="font-bold text-amber-600 text-xl"><Link>About Us</Link></li>
-            <li className="font-bold text-amber-600 text-xl"><Link to='/contact'>Contact</Link></li>
+            <li className="font-bold text-amber-600 text-xl"><Link to='/contact'>Contact me</Link></li>
         </>
     return (
         <div className="navbar bg-base-300">

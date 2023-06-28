@@ -1,15 +1,18 @@
 
+import About from "../About/About";
 import Contact from "../Contact/Contact";
+import Project from "../Project/Project";
 import Skill from "../Skill/Skill";
-// import TeckStack from "../TeckStack/TeckStack";
+
 import TopSection from "../TopSection/TopSection";
 
 const Home = () => {
     return (
         <div>
         <TopSection></TopSection>
-        {/* <TeckStack></TeckStack> */}
+        <Project></Project>
         <Skill></Skill>
+        <About></About>
         <Contact></Contact>
         </div>
     );
