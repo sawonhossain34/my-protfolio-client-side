@@ -1,16 +1,20 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const NavigationBer = () => {
 
     const listItem =
         <>
-            <li className="font-bold text-amber-600 text-xl"><Link>Home</Link></li>
+            {/* <li className="font-bold text-amber-600 text-xl"><Link>Home</Link></li>
             <li className="font-bold text-amber-600 text-xl"><Link>Project</Link></li>
             <li className="font-bold text-amber-600 text-xl"><Link>About Us</Link></li>
-            <li className="font-bold text-amber-600 text-xl"><Link to='/contact'>Contact me</Link></li>
+            <li className="font-bold text-amber-600 text-xl"><Link to='/contact'>Contact me</Link></li> */}
+            <a href="/"  className="mr-2 font-bold text-amber-600 text-xl">Home</a>
+            <a href="#project"  className="mr-2 font-bold text-amber-600 text-xl">Project</a>
+            <a href="#About"  className="mr-2 font-bold text-amber-600 text-xl">About</a>
+            <a href="#contact"  className="mr-2 font-bold text-amber-600 text-xl">Contact</a>
         </>
     return (
-        <div className="navbar bg-base-300">
+        <div className="navbar bg-black">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

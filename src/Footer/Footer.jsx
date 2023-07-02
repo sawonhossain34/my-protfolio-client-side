@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -9,10 +9,10 @@ const Footer = () => {
                 </div>
                 <div className="" >
                     <span className="footer-title">Company</span>
-                    <li className="font-bold text-amber-600 "><Link>Home</Link></li>
-                    <li className="font-bold text-amber-600 "><Link>Project</Link></li>
-                    <li className="font-bold text-amber-600 "><Link>About Us</Link></li>
-                    <li className="font-bold text-amber-600 "><Link to='/contact'>Contact me</Link></li>
+                    <a href="/" className="mr-2 font-bold text-amber-600 text-xl">Home</a>
+                    <a href="#project" className="mr-2 font-bold text-amber-600 text-xl">Project</a>
+                    <a href="#About" className="mr-2 font-bold text-amber-600 text-xl">About</a>
+                    <a href="#contact" className="mr-2 font-bold text-amber-600 text-xl">Contact</a>
 
                 </div>
                 <div>
