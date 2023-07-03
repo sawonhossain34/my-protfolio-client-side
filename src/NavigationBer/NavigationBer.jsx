@@ -1,13 +1,8 @@
-// import { Link } from "react-router-dom";
 
 const NavigationBer = () => {
 
     const listItem =
         <>
-            {/* <li className="font-bold text-amber-600 text-xl"><Link>Home</Link></li>
-            <li className="font-bold text-amber-600 text-xl"><Link>Project</Link></li>
-            <li className="font-bold text-amber-600 text-xl"><Link>About Us</Link></li>
-            <li className="font-bold text-amber-600 text-xl"><Link to='/contact'>Contact me</Link></li> */}
             <a href="#"  className="mr-2 font-bold text-amber-600 text-xl">Home</a>
             <a href="#project"  className="mr-2 font-bold text-amber-600 text-xl">Project</a>
             <a href="#about"  className="mr-2 font-bold text-amber-600 text-xl">About</a>

@@ -1,4 +1,4 @@
-// import { Outlet } from "react-router-dom";
+
 import NavigationBer from "../NavigationBer/NavigationBer";
 import TopSection from "../Home/TopSection/TopSection";
 import Project from "../Home/Project/Project";
@@ -10,7 +10,6 @@ const Main = () => {
     return (
         <div className='max-w-screen-xl mx-auto bg-black'>
             <NavigationBer></NavigationBer>
-            {/* <Outlet></Outlet> */}
             <TopSection></TopSection>
             <Project></Project>
             <Skill></Skill>
