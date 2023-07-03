@@ -16,15 +16,15 @@ const Contact = () => {
     };
 
     return (
-        <div id="contact" className=' bg-black w-3/2 mx-auto'>
+        <div id="contact" className=' w-3/2 mx-auto'>
             <h3 className='text-center text-4xl font-bold text-amber-600 my-10 pt-5'>Contact Me</h3>
             <form ref={form} onSubmit={sendEmail} className='p-10 text-amber-600 md:w-full lg:w-1/2 mx-auto border-2 border-amber-600 rounded m-5 '>
                 <label className='text-xl'>Name</label>
                 <input type="text" className='input-design' name="from_name" placeholder='Enter your name' />
                 <label className='text-xl'>Email</label>
-                <input type="email" className='input-design' name="form_email" placeholder='Enter your email' />
+                <input type="email" className='input-design required' name="form_email" placeholder='Enter your email' />
                 <label className='text-xl'>Message</label>
-                <textarea name="message" className='input-design' placeholder='Enter your message' />
+                <textarea name="message" className='input-design required' placeholder='Enter your message' />
                 <input  className='text-xl btn bg-amber-600 hover:text-amber-600 text-white' type="submit" value="Send" />
             </form>
         </div>

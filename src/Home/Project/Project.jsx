@@ -1,21 +1,33 @@
 
+import "./project.css"
 
-// const Project = () => {
-//     return (
-//         <div className="py-14">
-//             <h3 className="text-5xl bg-gray-700 py-5 font-bold text-amber-600 text-center">Recent Projects</h3>
-//             <div className="hero  bg-base-200">
-//                 <div className="hero-content flex-col lg:flex-row">
-//                     <img src="/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
-//                     <div>
-//                         <h1 className="text-5xl font-bold">Box Office News!</h1>
-//                         <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-//                         <button className="btn btn-primary">Get Started</button>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// };
+const Project = () => {
 
-// export default Project;
+    return (
+        <div id="project" className="mainBody">
+            <h2 className="text-5xl bg-gray-700 text-amber-600 font-bold text-center py-10">Projects</h2>
+
+            <div className="flex justify-center container">
+
+                   {/* 1  no */}
+                 <div className="">
+                    <div className="box box1"></div> 
+                        </div>
+
+                   {/* 2  no */}
+                    <div className="">
+                    <div className="box box2"></div>
+                    </div>
+
+                   {/* 3  no */}
+                    <div className="">
+                    <div className="box box3"></div>
+                    </div>
+            </div>
+        </div>
+
+       
+    );
+};
+
+export default Project;

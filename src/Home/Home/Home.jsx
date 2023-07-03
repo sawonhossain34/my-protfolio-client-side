@@ -1,19 +1,19 @@
 
-import About from "../About/About";
-import Contact from "../Contact/Contact";
+// import About from "../About/About";
+// import Contact from "../Contact/Contact";
 // import Project from "../Project/Project";
-import Skill from "../Skill/Skill";
+// import Skill from "../Skill/Skill";
 
-import TopSection from "../TopSection/TopSection";
+// import TopSection from "../TopSection/TopSection";
 
 const Home = () => {
     return (
         <div>
-        <TopSection></TopSection>
-        {/* <Project></Project> */}
+        {/* <TopSection></TopSection>
+        <Project></Project>
         <Skill></Skill>
         <About></About>
-        <Contact></Contact>
+        <Contact></Contact> */}
         </div>
     );
 };

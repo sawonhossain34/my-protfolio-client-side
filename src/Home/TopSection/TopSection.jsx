@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import imgpdf from "../../../public/resume (4).pdf"
+import { FaDownload } from 'react-icons/fa';
 
 
 
@@ -22,7 +23,10 @@ const TopSection = () => {
                         working on my <span className="text-amber-600">HTML</span>,<span className="text-amber-600">CSS</span>,<span className="text-amber-600">Javascript</span> <br /> and <span className="text-amber-600">React</span> skills.</p>
 
                     <button className="btn bg-amber-600 hover:text-amber-600">
-                        <a href={imgpdf} alt=''>Resume</a>
+                        <a className="flex" href={imgpdf} alt=''>Resume download <FaDownload  className=""/></a>
+                    </button>
+                    <button className="btn ml-4 bg-amber-600 hover:text-amber-600 ">
+                        <a href="#contact">Hire Me</a>
                     </button>
                 </div>
             </div>
