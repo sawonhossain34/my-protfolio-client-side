@@ -6,18 +6,17 @@
     transition: ease-in-out 4s;
 }
 .container .box.box1{
-    background: url(learn-photography.jpg);
+    background: url('learn-photography.jpg');
     background-size: cover;
 }
 .container .box.box2{
-    background: url(toy-truck.jpg);
+    background: url('toy-truck.jpg');
     background-size: cover;
 }
 .container .box.box3{
-    background: url(chef-and-food.jpg);
+    background: url('chef-and-food.jpg');
     background-size: cover;
 }
 .container .box:hover{
     background-position: bottom;
-}
-  
+} 
