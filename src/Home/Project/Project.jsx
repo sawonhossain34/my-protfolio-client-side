@@ -1,5 +1,5 @@
 
-import "./project.css"
+import "./project.css";
 
 const Project = () => {
 
@@ -10,21 +10,23 @@ const Project = () => {
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  container justify-around text-amber-700 ml-12 bottom-2 border-y-orange-600">
 
                 {/* 1  no */}
-                <div className="  ">
-                    <div className="box box1 ">
-                        <h3> </h3>
+                <div className="container pt-4">
+                    <div className="box box1" >
+                        <h2></h2>
+
                     </div>
-                    <h3 className="text-amber-700">Learn_Photography,
+                    <h3 className="text-amber-700 pt-4">Learn_Photography,
                         react_tailwind_daisyui <br />_react_icon_react_form,
                         Slider_ <br />faveroutclass_dashboard login.</h3>
                 </div>
+                
 
                 {/* 2  no */}
-                <div className="  ">
+                <div className="container pt-4">
                     <div className="box box2">
-                        <h3> </h3>
+                        <h2></h2>
                     </div>
-                    <h3 className="text-amber-700">navigationBer
+                    <h3 className="text-amber-700 pt-4">navigationBer
                         Responsive Footer
                         slider <br />
                         imgGallery
@@ -32,11 +34,11 @@ const Project = () => {
                 </div>
 
                 {/* 3  no */}
-                <div className="  ">
+                <div className="container pt-4">
                     <div className="box box3">
-                        <h3> </h3>
+                        <h2></h2>
                     </div>
-                    <h3 className="text-amber-700">vite.config.js
+                    <h3 className="text-amber-700 pt-4">vite.config.js
                         chef details
                         .gitignore <br /> node_modules
                         create env.local <br />

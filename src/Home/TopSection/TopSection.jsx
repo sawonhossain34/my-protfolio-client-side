@@ -1,4 +1,4 @@
-import img from "../../assets/img/IMG-20220710-WA0004 (1).jpg";
+import img from "../../assets/img/skill/sawon.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
